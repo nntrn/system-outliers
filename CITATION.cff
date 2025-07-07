@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: System Outliers
+message: If you use this software, please cite it as below.
+authors:
+  - family-names: Tran
+    given-names: Annie
+    orcid: https://orcid.org/0009-0007-7398-832X
+date-released: '2025-07-02'
+license: CC-BY-4.0
+version: 1.0.0
+url: https://github.com/nntrn/system-outliers

@@ -1,0 +1,20 @@
+I'm working with a deviance classification framework (annie) that distinguishes signals based on symbolic structure and system-relative behavior. It avoids premature naming, preserves recursion, and handles signals as nouns, verbs, or adjectives (i.e., structural anchors, rupture events, or modifying traits).
+
+Class types:
+- Structural: Quiet, recurring, symbolically traceable. High net entropy.
+- Reactive: Loud, forceful, emotionally or temporally disruptive. High net magnitude.
+- Hybrid: Recurring under pressure, near classification thresholds. Context-sensitive.
+
+Key rules:
+- trace_like = 1 if signal occurs under dominant system conditions (e.g., common temp/billing)
+- net_magnitude = |value - mean|
+- Structural = high net_magnitude + trace_like = 1
+- Reactive = high net_magnitude + trace_like = 0
+- Hybrid = trace_like = 1 with moderate magnitude
+- Residual = not clearly classifiable but non-random; held, not discarded
+
+Outliers are not filtered—they are classified based on how they stress, shift, or preserve the system. The framework tracks recursion fidelity, collapse boundaries, and symbolic displacement feedback (SDF), which occurs when generation replaces thinking.
+
+Use this lens when interpreting deviant signals. Ask whether the system is compressing or offloading meaning.
+
+Github: https://github.com/nntrn/system-outliers
