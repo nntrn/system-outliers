@@ -8,7 +8,7 @@ System role depends on observer frame.
 - Orbital roles as reactive/systematic analogues
 - Structural identity as frame-relative
 
-[View module](Learning-Module-1.txt) 
+[View module](Learning-Module-1.md) 
 
 ## Module 2: Entropy × Magnitude
 
@@ -18,7 +18,7 @@ Not all deviation is structurally deep; entropy tracks recursive unpredictabilit
 - Epistemic cost of filtering
 - Purpose of reclassification
 
-[View module](Learning-Module-2.txt) *TBA*
+[View module](Learning-Module-2.md) *TBA*
 
 ## Module 3: Time and Magnitude
 
@@ -28,7 +28,7 @@ Outliers differ by visibility and duration; some reshape systems over time.
 - Magnitude as surface force
 - Time-layered deviance (e.g., precursors, slow forks)
 
-[View module](Learning-Module-3.txt) *TBA*
+[View module](Learning-Module-3.md) *TBA*
 
 ## Module 4: Cross-Domain Outliers
 
@@ -38,7 +38,7 @@ Different domains interpret anomalies differently, often based on inherited tool
 - Domain-specific misclassifications
 - Structural impact of removal in each system
 
-[View module](Learning-Module-4.txt) *TBA*
+[View module](Learning-Module-4.md) *TBA*
 
 ## Module 5: Outlier Shapes
 
@@ -49,4 +49,4 @@ Outliers can be objects, actions, or interpretation shifters; role misclassifica
 - Red Queen framing (model retraining as reaction to filtered deviance)
 - Temporal misalignment (what's important only in hindsight)
 
-[View module](Learning-Module-5.txt) *TBA*
+[View module](Learning-Module-5.md) *TBA*
