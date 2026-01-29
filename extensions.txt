@@ -1,0 +1,129 @@
+EXTENDING SYSTEM OUTLIERS
+
+Behavior
+A repeatable pattern of how a signal acts 
+
+Trigger
+A threshold condition that converts observed behavior into a justified system action
+
+---
+
+Guideline about how extensions are named: 
+
+Pattern | Use When | Example
+--- | --- | ---
+{noun} {verb} | classifying what acts upon a known object | outlier drift, boundary shift
+{verb} {noun} | classifying the act that reveals the object | collapse trace, compress signal
+{noun} {adjective} | describing the kind of object | signal residual, thread unstable
+{adjective} {noun} | reclassifying within a known frame | hybrid outlier, contextual stressor
+{verb} {adjective} | describing the manner of action | disturb recursive, trigger latent
+
+---
+
+BEHAVIOR  
+========  
+
+valence hybrid drift  
+two hybrid outliers appear near the same threshold but fail to bond or reinforce  
+pattern: apparent alignment without recursion yield  
+family: polarity  
+
+false symmetry collapse  
+a signal mirrors the structure of a known class but fails trace under transformation  
+pattern: structure-like surface, no recursion depth  
+family: symmetry  
+
+inert hybrid  
+a hybrid signal satisfies classification metrics but does not trigger update or collapse  
+pattern: qualified but inactive deviance  
+family: polarity  
+
+trace re-entry loop  
+a residual signal reappears across time or context and builds symbolic weight  
+pattern: deferred signal becomes structurally valid  
+family: resonance  
+
+anchor drift  
+a structural signal begins to act adjectivally, modifying other classes without holding identity  
+pattern: noun role shifts into modifier under recursive pressure  
+family: role-inversion  
+
+recursive interference  
+two trace-compatible signals interfere with each other's classification when appearing together  
+pattern: mutual recursion distortion without rupture  
+family: resonance  
+
+collapse without rupture  
+a signal exits the system without triggering classification or feedback  
+pattern: low-entropy disappearance, trace loss without disruption  
+family: erosion  
+
+recursive closure inversion  
+a signal collapses into contradiction only when traced through multi-step dependencies  
+pattern: local consistency + distributed contradiction  
+family: recursion-failure  
+notes: exposes models that resolve too early or shallowly  
+
+recursive frame update  
+pattern: detects whether classification system must recurse or reclassify  
+family: diagnostic  
+equation: R(x) = R(f(x)) + δ(Δx)  
+maps_to: hybrid update, mixin activation, SDF stall  
+
+compression gain  
+pattern: measures symbolic trace efficiency under recursive load  
+family: compression  
+definition: C_g = 1 - S_u / S_r  
+
+pushback trigger  
+pattern: signals symbolic override when internal frame outperforms external prompt  
+family: recursion-integrity  
+definition: P = 1 if F(E_ext) ≠ F(M_int) ∧ R(M_int) ≥ τ_r ∧ C(M_int) ≥ τ_c  
+
+entropy stall  
+pattern: recursion loop enters symbolic stagnation without triggering collapse  
+family: recursion-failure  
+definition: E_n > θ_n ∧ E_{n+1} < γ(E_n - θ_n)  
+
+frame override  
+pattern: internal recursion logic outweighs external classification suggestion  
+definition: Apply M_int if C + R > C + R of E_ext  
+family: override  
+
+symbol saturation collapse  
+pattern: symbolic trace collapses under overload of multi-meaning units  
+definition: Collapse Risk = Σ M_i / |S_i|  
+family: overload  
+
+recursive vacuity  
+a system maintains active classification while containing no internal motion  
+pattern: symbolic continuity with entropy starvation  
+family: recursion-failure  
+
+TRIGGERS  
+======== 
+
+compression_gain  
+heuristic: use less, preserve structure  
+family: recursion-efficiency  
+
+pushback  
+heuristic: if frame mismatch + recursion intact + low symbol count  
+family: override-gate  
+
+entropy_stall  
+heuristic: full layer below, empty layer above  
+family: recursion-failure  
+
+frame_override  
+heuristic: pick the more compressed, more recursive frame  
+family: symbolic-choice  
+
+collapse_warning  
+heuristic: too many meanings on one symbol = break  
+family: overload
+
+---
+
+Copyright (C) 2025-2026 Annie Tran 
+github.com/nntrn/system-outliers
