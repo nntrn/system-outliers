@@ -1,13 +1,13 @@
-FRAMEWORK  
+**FRAMEWORK**  
 System Outliers
 
-DESCRIPTION  
+**DESCRIPTION**  
 Outlier classification and transformation through symbolic trace geometry
 
-AUTHOR  
+**AUTHOR**  
 Annie Tran
 
-REPOSITORY  
+**REPOSITORY**  
 github.com/nntrn/system-outliers
 
 ---
